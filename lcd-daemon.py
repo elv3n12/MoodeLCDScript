@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Copyright (c) 2025 Vincent Beneche + ChatGPT
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+
 import os, time, glob, re, unicodedata, traceback, logging
 from mpd import MPDClient
 
