@@ -2,7 +2,7 @@
 
 This Python script controls a 4x20 I2C LCD screen connected to a Raspberry Pi, displaying in real time :
 
-- The status of your USB DAC (e.g. Rotel)
+- The status of your USB DAC 
 - CD audio ripping activity (abcde integration)
 - Spotify playback info (from a spotmeta file)
 - MPD (Music Player Daemon) playback info
@@ -10,10 +10,10 @@ This Python script controls a 4x20 I2C LCD screen connected to a Raspberry Pi, d
 
 ## Features
 
-- **USB DAC detection** : Shows "SELECT PC-USB IN ON ROTEL AMP" if the USB DAC is not detected.
-- **Automatic CD Ripping Display** : Shows rip progress and status (integration with abcde).
-- **Spotify Display** : Shows title, artist, album from a spotmeta file.
-- **MPD Display** : Shows track, artist, album and real-time progress bar.
+- **USB DAC detection** : Shows "SELECT PC-USB IN ON ROTEL AMP" if the USB DAC is not detected. (To be custimsed for your needs)
+- **Automatic CD Ripping Display** : Shows rip progress and status (integration with abcde). 
+- **Spotify Streaming Display** : Shows title, artist, album from a spotmeta file.
+- **MPD Display** : Shows track, artist, album and real-time progress bar (Custom CGRAM Characters).
 - **Text scrolling** : Titles/artists/albums scroll if too long for the display.
 - **Custom Idle Mode** : Splash screen with current time.
 
